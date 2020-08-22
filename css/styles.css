@@ -1,0 +1,361 @@
+html,body{
+   width: 100%;
+   height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+@-webkit-keyframes sk-rotateplane{0%{-webkit-transform:rotateX(0deg) rotateY(0deg);transform: rotateX(0deg) rotateY(0deg)}100%{-webkit-transform:rotateX(0deg) rotateY(180deg);transform: rotateX(0deg) rotateY(180deg)}}
+@keyframes sk-rotateplane{0%{-webkit-transform: rotateX(0deg) rotateY(0deg);transform: rotateX(0deg) rotateY(0deg)}100%{-webkit-transform: rotateX(0deg) rotateY(180deg);transform: rotateX(0deg) rotateY(180deg)}}
+
+
+#preloader{position:fixed;left:0;top:0;width:100%;height:100%;background:#01A9C1;z-index:9999999;-webkit-perspective:150px;perspective:150px}
+#postpreloader{position:absolute;width:100%;height:100%;-webkit-perspective:150px;perspective:150px}
+#preloader .spinner{
+    display:block;
+    width:140px;
+    height:62px;
+    margin:50vh auto;
+    -webkit-animation:sk-rotateplane 2s infinite ease-in-out;
+    -moz-animation:sk-rotateplane 2s infinite ease-in-out;
+    animation: sk-rotateplane 2s infinite ease-in-out;
+    background-image:url(../imgs/prelaod-logo.png);}
+
+
+.navbar{
+    background-color:white !important;
+  
+}
+
+#collapsibleNavId{
+    border-left: 5px solid blue !important;
+  
+}
+
+#nav-list {
+    position: relative; top: 45% ! important;
+}
+
+#nav-list p {display: inline-block;}
+.list-inline-item{
+    padding: 0px 5px !important;
+    
+}
+
+.list-inline-item >a {
+    color: black !important;
+    font-size: medium !important;
+    
+}
+.list-inline-item > a:hover{
+    text-decoration: none;
+}
+
+
+#main-nav-bar{
+    background-color:#01A9C1 !important; 
+   
+    z-index: 100;
+    
+}
+#main-nav-bar .list-inline-item  {
+     border-left: 2px solid white !important; 
+    padding: 0px 20px !important;
+}
+
+#main-nav-bar .list-inline-item >a {
+    color:white !important;
+    font-weight: bold !important;
+   
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.jumbotron,.jumbotron-fluid {
+    background-image: url(../petra.jpg) !important; background-position: center !important; /* Center the image */
+    background-repeat: no-repeat !important; /* Do not repeat the image */
+    background-size: cover !important;
+    position: relative;
+
+}
+#jumbo-container{
+    background-color: rgb(255,255,255,0.7) !important; 
+    color: black !important;
+}
+
+#jumbo-container a:hover{
+   text-decoration: none !important;
+}
+#news{
+    background-color: #DDEBED !important;
+}
+#news-header{
+    border-bottom:  3px solid #01A9C1 !important;
+    width: 15%;
+    margin: auto;
+    
+}
+#event-header{
+    border-bottom:  3px solid #C27B01!important;
+    width: 72% !important;
+}
+#website-event-list .card{ width: 600px !important;}
+  
+.carousel-control-prev  span ,.carousel-control-next  span {
+     border: 1px solid rgba(0,0,0,0.4) ;border-radius: 50%; padding: 8px 10px !important;
+     background-color:white !important;
+    }
+#website-event-list li{ padding:8px;}
+#website-event-list li > a{
+        color: black;
+        text-decoration: none;
+    }  
+#website-navigation-list li{
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    padding: 20px 5px;
+    width: 80%;
+}  
+
+#website-event-list li > a:hover{
+    color: #01A9C1;
+    text-decoration: none;
+} 
+
+
+
+#website-navigation-list li > a{
+    color: black;
+    text-decoration: none;
+}  
+#website-navigation-list li > a:hover{
+    color: #01A9C1;
+    text-decoration: none;
+} 
+.card{
+    position: relative !important;
+    z-index: -1!important;
+    min-width: 20% !important;
+    min-height: 20%!important;
+}  
+.card-title{
+    font-size: medium !important;
+    font-weight: bold;
+}
+#footer {
+    
+    background-image: none !important;
+    background-color: #051F34 !important;
+    color: white;
+    font-size: medium;
+}
+#footer a {
+    text-decoration: none !important;
+}
+.footer-row1{
+    border-bottom: 1px solid rgb(255,255,255,0.3) !important;
+}
+
+.footer-row2-sec1{border-left: 1px solid rgb(255,255,255,0.3) !important;
+    height: 41.5vh;
+}
+.footer-row2-sec2{border-left: 1px solid rgb(255,255,255,0.3) !important;
+    height: 41.5vh;
+}
+
+.footer-btn{
+    padding: 5px 20px;
+    border: 1px solid #C17901!important;
+    border-radius: 20px;
+   
+}
+.footer-row2-sec3-review {
+    border-bottom: 1px solid rgb(255,255,255,0.3) !important;
+   
+    width:90%;
+    margin: auto;
+}
+.carousel-indicators li {
+    height: 20px !important;
+    
+    width: 20px !important;
+    border-radius: 15px !important;
+    border : 1px solid rgba(0,0,0,0.2)  !important  ;
+    
+  }
+  .carousel-indicators .active {
+   
+    background-color: #01A9C1;
+    border : 1px solid white !important  ;
+    padding: 10px !important;
+}
+.carousel-item{
+    padding:100px !important;
+    
+}
+.carousel-item1{
+    padding: 5px 100px !important;
+    padding-top: 50px !important
+}
+#tweet-section{
+    
+    background-color: #DDEBED !important;
+   
+}
+
+
+ 
+
+.dropdown-menu{
+    border-bottom: 4px solid #01A9C1 !important;
+}
+#main-nav-bar .list-inline-item >a:hover {
+    color: rgb(255,255,255,0.8) !important;
+}
+
+
+.list-group-item { 
+    border-left:none !important;
+    border-right:none !important;
+}
+.list-group-item a {color:black !important;
+text-decoration: none !important;}
+.active> a {
+    color: white !important;
+    text-decoration: none;
+}
+.list-group-item.active{
+    background-color: #01A9C1 !important;
+    border:none !important;
+}
+#about-section{
+    border-top: 3px solid #C17901!important;
+}
+#about-section h3 {
+    color:#C17901 !important;
+   
+}
+
+#office-section{border-top: 3px solid #C17901!important;}
+#office-section h3 { color:#C17901 !important;}
+#office-img {
+    border: 4px solid #C17901 !important ;
+}
+#ministers-section .card {
+    height:67vh !important;
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+.border-gold{
+    border: 1px solid #C17901 !important ;
+    border-radius: 10px !important;
+    
+}
+#Legislation-section  .Legislation-btn>a{
+    color:black !important;
+    text-decoration: none !important;
+  
+}
+
+#Legislation-section .Legislation-btn>a:hover{
+    color:black !important;
+    text-decoration: none !important;
+}
+
+#myInput{
+    border-radius: 10px !important;
+    border-bottom-right-radius: 0px !important;
+    
+}
+
+#show_structure_btn h6>a:hover {
+    text-decoration: none !important;
+}
+
+#inputGroupSelect01{
+    border-radius: 0px !important ;
+    border-top-left-radius: 10px !important;
+}
+#inputGroupSelect01-label{
+    border-radius: 0px !important ;
+}
+.custom-select{
+   
+background:  url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='rgb(193, 121, 1)' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat left .75rem  !important;
+background-size: 8px 10px !important;
+padding: 0px 10px !important;
+background-position-y: 0.75rem !important;
+background-position-x:0.75rem !important;
+    }
+
+#services-section a:hover {
+    text-decoration: none !important;
+}
+
+.text-gold{
+    color:#C17901 !important;
+}
+.bg-gold{
+    background-color: #C17901 !important;
+}
+#ministers-section .card .card-img-top{height: 70%;}
+
+
+
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    z-index: 1;
+   }
+
+   #suggestions-section .form-container{
+    background-color: #F5F5F5!important;
+  
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#compliance-section .form-container{
+    background-color: #F5F5F5!important;
+  
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+form .custom-select{
+    background-color: white !important;
+}
+.go-top{
+    
+font-size: 14px;
+position: fixed;
+cursor: pointer;
+bottom: 30px;
+right: 0;
+color: #fff;
+z-index: 1;
+width: 45px;
+text-align: center;
+height: 45px;
+border-radius: 10px 0 0 10px;
+line-height: 46px;
+transition: .5s;
+background-color: #01a9c1;
+display: none;
+}
+.go-top:hover{
+    background-color:#C27B01;
+}
+
+@media only screen and (max-width: 540px) {
+    
+
+  }
